@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FORMULÁRIO</title>
+</head>
+    <style>
+        form{
+            max-width: 600px;
+            width: 100%;
+            padding: 50px;
+            position:absolute;
+            left: 50%;
+            top: 30%;
+            transform: translate(-50%,-30%);
+
+        }
+    </style>
+
+<body>
+
+   
+    <form>
+        <h1>FORMULÁRIO</h1>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <div>
+                <label for="text">Nome</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+                <br>
+            <div>
+                <label for="text"></label>Data de Nascimento</label>
+                <input type="text" name="data de nascimento" id="data de nascimento"><br>
+            </div>
+                <br>
+            <div>
+                <label for="text">Endereço</label>
+                <input type="text" name="Endereço" id="Endereço">
+            </div>
+                <br>
+            <div>
+                <label for="text">Bairro</label>
+                <input type="text" name="Bairro" id="Bairro">
+                <label for="text">Cidade</label>
+                <input type="text" name="Cidade" id="Cidade">
+            </div>
+                <br>
+            <div>
+                <label for="text">CEP</label>
+                <input type="text" name="CEP" id="CEP">
+                <label for="text">Estado</label>
+                <select>
+                    <option>Ceará</option>
+                    <option>Bahia</option>
+                    <option>Sergipe</option>
+                    <option>Pernambuco</option>
+                </select>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            <div>
+                <label>Natureza dos Cargos</label>
+                <br>
+                <input type="radio" name="Gerência">Gerência
+                <input type="radio" name="Financeiro">Financeiro
+                <input type="radio" name="Recepção">Recepção
+                <input type="radio" name="Administrativo">Administrativo
+                <input type="radio" name="Juridico">Juridico
+            </div>
+                <br>
+            <div>
+                <label>Área de Interesse</label>
+                <br>
+                <input type="checkbox" >Computação
+                <input type="checkbox">Quimica
+                <input type="checkbox">Meio Ambiente
+                <input type="checkbox">Engenharia
+                <input type="checkbox">Matemática
+            </div>
+                <br>
+            <div>
+                <legend>Mini - Curriculo</legend>
+                <textarea rows="15" cols="30">
+
+                </textarea>           
+            </div>
+
+        </fieldset>
+        <br>
+           <center>
+              <button><a href="tabela2.html" target="blanck">Enviar</a></button>
+                <input type="submit" name="Enviar">
+                <input type="reset">
+                
+            </center>
+           
+    </form>
+            
+        
+            
+</body>
+</html>
